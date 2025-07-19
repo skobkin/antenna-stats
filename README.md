@@ -6,6 +6,8 @@ This repository is supposed to consist of helpful, but not exhaustive antenna me
 
 Giving it's homemade nature, you shouldn't rely on it as a trustworthy source.
 
+You can contribute to it by opening a Pull Request with your own measuremens. Here are some [guidelines and instructions](CONTRIBUTING.md).
+
 ## Antennas
 
 ### [Gizont Nb-iot / LORA Soft Antenna M2 (200 mm, 868 MHz)](antennas/gizont_nbiot_lora_soft_antenna_m2/details.md)
