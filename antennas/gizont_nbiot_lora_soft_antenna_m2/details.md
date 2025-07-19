@@ -14,12 +14,16 @@ Smith graph: `xxx`
 
 <details>
 <summary>Screenshot</summary>
+
 ![test image](https://i.skobk.in/i/orly/jpeg-compression.jpg)
+
 </details>
 
 ## Photos
 
 <details>
 <summary>Antenna</summary>
+
 ![test image](https://i.skobk.in/i/orly/jpeg-compression.jpg)
+
 </details>
