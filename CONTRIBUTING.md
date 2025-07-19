@@ -2,7 +2,21 @@
 
 You can contribute to this repository by opening a Pull Request with your measurements.
 
-## Taking Antenna Measurements with [NanoVNA](https://nanovna.com)
+## Guidelines
+
+- Make measurements depending on how antenna frequency characteristics are stated
+  - If antenna is stated to be a wideband, make measure the beginning, the middle and the end of the band (use 3 markers in NanoVNA)
+  - If antenna is stated to be tuned to a specific frequency (i.e. 868 MHz), measure it on that specific frequency, but set up your measuring device to measure with some headroom on both sides (for example from 800 MHz to 1000 MHz for 868 MHz antenna)
+- Add basic information on antenna to the `README.md`. All other details should go into a separate directory in the `antennas`
+  - The directory should be named using `snake_case` in English
+  - All images should go into a separate sub-directory: `antennas/<antenna_name>/images`
+    - Screenshots from NanoVNA and devices like that should be in PNG format while
+    - Antenna photos should be in JPEG or WebP (compressed) formats, their resolutions should be no more than 1280x720
+  - All detailed text data goes into a `antennas/<antenna_name>/details.md` file.
+    - Check for existing `details.md` examples to see how to format it.
+    - If there is a datasheet for the antenna, leave a link to it.
+
+## Hints on taking antenna measurements with [NanoVNA](https://nanovna.com)
 
 **Before measuring:**
 - Calibrate your NanoVNA using a calibration kit (SOL: Short, Open, Load)
@@ -34,6 +48,6 @@ You can contribute to this repository by opening a Pull Request with your measur
 - Record SWR, return loss, and impedance data
 - Note any limitations or unusual conditions during measurement
 
-## Step by step guide
+## Step by step contribution guide for beginners
 
 [TBW]
