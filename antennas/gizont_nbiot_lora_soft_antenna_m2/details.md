@@ -9,8 +9,8 @@
 ### 868 MHz
 
 SWR: `1.X`
+Impedance: `50 Ω`
 Return loss: `-x dB`
-Smith graph: `xxx`
 
 <details>
 <summary>Screenshot</summary>
