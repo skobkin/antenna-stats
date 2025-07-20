@@ -1,4 +1,4 @@
-# Contributing
+# Contributing ([Русский](CONTRIBUTING_RU.md))
 
 You can contribute to this repository by opening a Pull Request with your measurements.
 
@@ -10,8 +10,8 @@ You can contribute to this repository by opening a Pull Request with your measur
 - Add basic information on antenna to the `README.md`. All other details should go into a separate directory in the `antennas`
   - The directory should be named using `snake_case` in English
   - All images should go into a separate sub-directory: `antennas/<antenna_name>/images`
-    - Screenshots from NanoVNA and devices like that should be in PNG format while
-    - Antenna photos should be in JPEG or WebP (compressed) formats, their resolutions should be no more than 1280x720
+    - Screenshots from NanoVNA and devices like that should be in PNG format with maximum compression
+    - Antenna photos should be in JPEG or WebP (compressed) formats with ~80% compression, their resolutions should be no more than 1280x720
   - All detailed text data goes into a `antennas/<antenna_name>/details.md` file.
     - Check for existing `details.md` examples to see how to format it.
     - If there is a datasheet for the antenna, leave a link to it.
