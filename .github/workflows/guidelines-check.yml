@@ -1,0 +1,30 @@
+name: Guidelines Validation
+
+on:
+  pull_request:
+    paths:
+      - 'antennas/**'
+      - 'README.md'
+  push:
+    branches:
+      - main
+    paths:
+      - 'antennas/**'
+      - 'README.md'
+
+jobs:
+  validate-guidelines:
+    name: Validate guidelines
+    runs-on: ubuntu-latest
+    container:
+      image: python:3.11-alpine
+    
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0  # Fetch full history to compare changes
+      
+      - name: Run all validations
+        run: |
+          python .github/scripts/validate_all.py
