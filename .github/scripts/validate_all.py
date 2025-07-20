@@ -21,6 +21,8 @@ try:
     from check_file_sizes import check_file_sizes
     from validate_images import validate_images
     from validate_required_files import validate_required_files
+    from validate_readme import validate_readme_links
+    from validate_details import validate_details_files
 except ImportError as e:
     print(f"❌ Error: Could not import validation modules: {e}")
     sys.exit(1)
@@ -69,6 +71,24 @@ def run_all_validations() -> List[str]:
         all_errors.extend(errors)
     except Exception as e:
         error_msg = f"❌ Error in required files validation: {e}"
+        all_errors.append(error_msg)
+        print(error_msg)
+    
+    # Run README validation
+    try:
+        errors = validate_readme_links()
+        all_errors.extend(errors)
+    except Exception as e:
+        error_msg = f"❌ Error in README validation: {e}"
+        all_errors.append(error_msg)
+        print(error_msg)
+    
+    # Run details.md validation
+    try:
+        errors = validate_details_files()
+        all_errors.extend(errors)
+    except Exception as e:
+        error_msg = f"❌ Error in details.md validation: {e}"
         all_errors.append(error_msg)
         print(error_msg)
     

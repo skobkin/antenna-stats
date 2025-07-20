@@ -43,7 +43,20 @@ ERROR_TEMPLATES = {
     'unauthorized_file': f"❌ Directory '{{name}}' contains unauthorized file '{{file}}'. Only '{DETAILS_FILE_NAME}' and '{IMAGES_DIR_NAME}/' directory are allowed",
     'unauthorized_subdir': f"❌ Directory '{{name}}' contains unauthorized subdirectory '{{subdir}}'. Only '{IMAGES_DIR_NAME}/' directory is allowed",
     'images_not_directory': f"❌ Directory '{{name}}' contains '{IMAGES_DIR_NAME}' but it's not a directory",
-    'no_antennas_dir': "ℹ️  No antennas directory found, skipping validation"
+    'no_antennas_dir': "ℹ️  No antennas directory found, skipping validation",
+    'readme_missing': "❌ README.md file not found in root directory",
+    'antenna_not_linked': "❌ Antenna directory '{name}' is not linked from README.md",
+    'broken_internal_link': "❌ README.md links to non-existing path: {link}",
+    'invalid_external_link': "❌ README.md contains invalid external link: {link}",
+    'malformed_external_link': "❌ README.md contains malformed external link: {link}",
+    'missing_required_section': "❌ Antenna '{name}' is missing required section '## {section}'",
+    'missing_buy_link': "❌ Antenna '{name}' section 'Where to buy' must contain at least one link",
+    'missing_measurements_subsection': "❌ Antenna '{name}' section 'Measurements' must contain at least one subsection (###)",
+    'missing_swr_in_subsection': "❌ Antenna '{name}' subsection '{subsection}' must contain 'SWR'",
+    'missing_impedance_in_subsection': "❌ Antenna '{name}' subsection '{subsection}' must contain 'Impedance'",
+    'photos_not_in_spoilers': "❌ Antenna '{name}' section 'Photos' must contain photos inside spoilers (<details> tags)",
+    'non_existing_image': "❌ Antenna '{name}' references non-existing image: {image}",
+    'non_image_file': "❌ Antenna '{name}' references non-image file: {image}"
 }
 
 # Success message templates
@@ -52,6 +65,8 @@ SUCCESS_TEMPLATES = {
     'file_sizes': "✅ All files are within size limits!",
     'images': "✅ All images are properly located and formatted!",
     'required_files': "✅ All antenna directories have proper structure!",
+    'readme_validation': "✅ README.md validation passed!",
+    'details_validation': "✅ details.md validation passed!",
     'all_checks': "✅ All antenna structure validation checks passed!"
 }
 
@@ -61,6 +76,8 @@ PROGRESS_TEMPLATES = {
     'file_sizes': "📏 Checking file sizes in antenna directories...",
     'images': "🖼️  Validating image locations and formats...",
     'required_files': "📄 Validating required files in antenna directories...",
+    'readme_validation': "📖 Validating README.md links...",
+    'details_validation': "📄 Validating details.md files...",
     'starting': "🔍 Starting antenna structure validation...",
     'checking_dir': "  Checking directory: {name}",
     'valid_image': "  ✅ {path}: Valid image",

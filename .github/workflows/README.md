@@ -38,6 +38,32 @@ The workflow enforces the following rules for antenna directories:
          └── side_view.webp
      ```
 
+5. **README.md Linking**: All antenna directories must be linked from the root `README.md` file
+   - ✅ Valid: `[Antenna Name](antennas/my_antenna/details.md)`
+   - ❌ Invalid: Missing link to antenna directory
+
+6. **Details.md Content Structure**: Each `details.md` file must contain:
+   - `## Where to buy` section with at least one link
+   - `## Measurements` section with at least one subsection (`###`) containing both "SWR" and "Impedance" fields
+   - `## Photos` section with images inside spoilers (`<details>` tags)
+   - All local image references must point to existing files
+   - ✅ Valid structure:
+     ```markdown
+     ## Where to buy
+     - [Store Link](https://example.com)
+     
+     ## Measurements
+     ### 868 MHz
+     SWR: `1.5`
+     Impedance: `50 Ω`
+     
+     ## Photos
+     <details>
+     <summary>Antenna View</summary>
+     ![image](images/antenna.jpg)
+     </details>
+     ```
+
 ### Local Testing
 
 You can test the validation locally by running:
@@ -51,6 +77,8 @@ python .github/scripts/check_directory_naming.py
 python .github/scripts/check_file_sizes.py
 python .github/scripts/validate_images.py
 python .github/scripts/validate_required_files.py
+python .github/scripts/validate_readme.py
+python .github/scripts/validate_details.py
 ```
 
 ### Configuration
