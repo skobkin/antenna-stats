@@ -13,7 +13,7 @@ MAX_FILE_SIZE_KB = 300
 MAX_FILE_SIZE_BYTES = MAX_FILE_SIZE_KB * 1024
 
 # Required files and directories
-REQUIRED_FILES = ['details.md']
+REQUIRED_FILES = ['README.md']
 ALLOWED_DIRECTORIES = ['images']
 
 # File names (for dynamic references)

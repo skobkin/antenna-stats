@@ -26,29 +26,33 @@ The workflow enforces the following rules for antenna directories:
    - ❌ Invalid: `antennas/my_antenna/photo.gif`, `antennas/my_antenna/images/Photo1.JPG`
 
 4. **Required Structure**: Each antenna directory must contain:
-   - `details.md` file (required)
+   - `README.md` file (required)
    - `images/` subdirectory (optional, but if present must contain only images)
    - No other files or subdirectories allowed
    - ✅ Valid structure:
      ```
      antennas/my_antenna/
-     ├── details.md
+     ├── README.md
      └── images/
          ├── front_view.jpg
          └── side_view.webp
      ```
 
 5. **README.md Linking**: All antenna directories must be linked from the root `README.md` file
-   - ✅ Valid: `[Antenna Name](antennas/my_antenna/details.md)`
+   - ✅ Valid: `[Antenna Name](antennas/my_antenna/README.md)`
    - ❌ Invalid: Missing link to antenna directory
 
-6. **Details.md Content Structure**: Each `details.md` file must contain:
+6. **README.md Content Structure**: Each `README.md` file must contain:
+   - Antenna photo displayed at the top after the header
    - `## Where to buy` section with at least one link
    - `## Measurements` section with at least one subsection (`###`) containing both "SWR" and "Impedance" fields
-   - `## Photos` section with images inside spoilers (`<details>` tags)
    - All local image references must point to existing files
    - ✅ Valid structure:
      ```markdown
+     # Antenna Name
+     
+     ![photo](images/antenna_photo.jpg)
+     
      ## Where to buy
      - [Store Link](https://example.com)
      
@@ -56,12 +60,6 @@ The workflow enforces the following rules for antenna directories:
      ### 868 MHz
      SWR: `1.5`
      Impedance: `50 Ω`
-     
-     ## Photos
-     <details>
-     <summary>Antenna View</summary>
-     ![image](images/antenna.jpg)
-     </details>
      ```
 
 ### Local Testing
