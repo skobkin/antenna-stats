@@ -2,7 +2,7 @@
 
 You can contribute to this repository by opening a Pull Request with your measurements.
 
-## Guidelines
+## Guideline requirements
 
 - Make measurements depending on how antenna frequency characteristics are stated
   - If antenna is stated to be a wideband, make measure the beginning, the middle and the end of the band (use 3 markers in NanoVNA)
