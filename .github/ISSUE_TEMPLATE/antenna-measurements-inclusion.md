@@ -7,6 +7,8 @@ assignees: skobkin
 
 ---
 
+- [ ] I have read and followed the [guidelines](https://github.com/skobkin/antenna-stats/blob/main/CONTRIBUTING.md) ([русская версия](https://github.com/skobkin/antenna-stats/blob/main/CONTRIBUTING_RU.md)).
+
 **Which antenna you have measured?**
 
 Provide antenna name here.
