@@ -49,3 +49,9 @@ Impedance: `40.73 Ω`, `j184m`
 SWR: `1.208` (straight), `1.459` (angled)
 
 Impedance: `46.04 Ω`, `j88m` (straight), `43.23 Ω`, `j182m` (angled)
+
+## License
+
+[![CC BY-SA 4.0](cc-by-sa.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
+
+This work is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License. To view a copy of this license, visit [https://creativecommons.org/licenses/by-sa/4.0/](https://creativecommons.org/licenses/by-sa/4.0/) or see the [LICENSE](LICENSE) file.
