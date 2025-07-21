@@ -26,6 +26,14 @@ You can contribute to it by opening a Pull Request with your own measuremens. He
 
 ## Antennas
 
+### [EByte TX868-JK-11 (868 MHz)](antennas/ebyte_tx_868_jk_11_868/details.md)
+
+#### 868 MHz
+
+SWR: `1.354` (Antenna 1), `1.321` (Antenna 2)
+
+Impedance: `38.09 Ω`, `j5.838` (Antenna 1), `38.74 Ω`, `j4.954` (Antenna 2)
+
 ### [Gizont Nb-iot / LORA Soft Antenna M2 (200 mm, 868 MHz)](antennas/gizont_nbiot_lora_soft_antenna_m2/details.md)
 
 #### 868 MHz
