@@ -50,6 +50,14 @@ SWR: `1.208` (straight), `1.459` (angled)
 
 Impedance: `46.04 Ω`, `j88m` (straight), `43.23 Ω`, `j182m` (angled)
 
+### [NoName short 868 MHz antenna (54mm)](antennas/noname_short_868mhz_54mm/details.md)
+
+#### 868 MHz
+
+SWR: `2.052` (Antenna 1), `1.808` (Antenna 2)
+
+Impedance: `53.89 Ω`, `-j37.92` (Antenna 1), `59.56 Ω`, `-j31.36` (Antenna 2)
+
 ## License
 
 [![CC BY-SA 4.0](cc-by-sa.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
