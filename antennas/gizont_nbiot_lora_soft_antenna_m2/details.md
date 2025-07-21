@@ -8,22 +8,54 @@
 
 ### 868 MHz
 
-SWR: `1.X`
-Impedance: `50 Ω`
-Return loss: `-x dB`
+SWR: `1.490`
+Impedance: `40.73 Ω`, `j184m`
 
 <details>
 <summary>Screenshot</summary>
 
-![test image](https://i.skobk.in/i/orly/jpeg-compression.jpg)
+![Measurement at 868 MHz](images/01_measurement.png)
+
+</details>
+
+### 868 MHz (old)
+
+SWR: `1.467`
+Impedance:
+
+<details>
+<summary>screenshot</summary>
+
+![Old measurement at 868 MHz](images/02_measurement_old.png)
+
+</details>
+
+### 868 MHz and 160 MHz resonance (old)
+
+**868 MHz:**
+
+SWR:
+
+Impedance:
+
+**162 MHz:**
+
+SWR:
+
+Impedance:
+
+<details>
+<summary>Screenshot</summary>
+
+![Resonance measurements](images/03_measurement_resonances_old.png)
 
 </details>
 
 ## Photos
 
 <details>
-<summary>Antenna</summary>
+<summary>Antenna photo</summary>
 
-![test image](https://i.skobk.in/i/orly/jpeg-compression.jpg)
+![photo](images/00_photo.jpg)
 
 </details>
