@@ -4,7 +4,7 @@
 
 ## Where to buy
 
-- [Aliexpress / onelinkmore AntennaMan Store](https://aliexpress.ru/store/709284)
+- [Aliexpress / onelinkmore AntennaMan Store](https://aliexpress.ru/item/4000221618463.html)
 
 ## Measurements
 
