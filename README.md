@@ -36,14 +36,8 @@ Impedance: `40.73 Ω`, `j184m`
 
 ### [NoName angled dipole antenna from Ozon (195 mm, 868 MHz)](antennas/noname_ozon_dipole_868mhz_angled/details.md)
 
-#### 868 MHz, straight
+#### 868 MHz
 
-SWR: `1.208`
+SWR: `1.208` (straight), `1.459` (angled)
 
-Impedance: `46.04 Ω`, `j88m`
-
-#### 868 MHz, angled
-
-SWR: `1.459`
-
-Impedance: `43.23 Ω`, `j182m`
+Impedance: `46.04 Ω`, `j88m` (straight), `43.23 Ω`, `j182m` (angled)
