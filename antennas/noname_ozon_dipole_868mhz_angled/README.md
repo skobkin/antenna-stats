@@ -1,5 +1,7 @@
 # NoName angled dipole antenna from Ozon (200 mm, 868 MHz)
 
+![photo](images/00_photo.jpg)
+
 ## Where to buy
 
 - [Ozon / "Проснаб"](https://www.ozon.ru/product/antenna-868-mgts-lora-lorawan-2sht-upakovka-1847411655/), select "868MHz SMA M 2" option
@@ -29,14 +31,5 @@ Impedance: `43.23 Ω`, `j182m`
 <summary>screenshot</summary>
 
 ![measurements in angled position](images/02_angled_90_deg.png)
-
-</details>
-
-## Photos
-
-<details>
-<summary>Antenna photo</summary>
-
-![photo](images/00_photo.jpg)
 
 </details>

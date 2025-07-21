@@ -26,7 +26,7 @@ You can contribute to it by opening a Pull Request with your own measuremens. He
 
 ## Antennas
 
-### [EByte TX868-JK-11 (868 MHz)](antennas/ebyte_tx_868_jk_11_868/details.md)
+### [EByte TX868-JK-11 (868 MHz)](antennas/ebyte_tx_868_jk_11_868/README.md)
 
 #### 868 MHz
 
@@ -34,7 +34,7 @@ SWR: `1.354` (Antenna 1), `1.321` (Antenna 2)
 
 Impedance: `38.09 Ω`, `j5.838` (Antenna 1), `38.74 Ω`, `j4.954` (Antenna 2)
 
-### [Gizont Nb-iot / LORA Soft Antenna M2 (200 mm, 868 MHz)](antennas/gizont_nbiot_lora_soft_antenna_m2/details.md)
+### [Gizont Nb-iot / LORA Soft Antenna M2 (200 mm, 868 MHz)](antennas/gizont_nbiot_lora_soft_antenna_m2/README.md)
 
 #### 868 MHz
 
@@ -42,7 +42,7 @@ SWR: `1.490`
 
 Impedance: `40.73 Ω`, `j184m`
 
-### [NoName angled dipole antenna from Ozon (195 mm, 868 MHz)](antennas/noname_ozon_dipole_868mhz_angled/details.md)
+### [NoName angled dipole antenna from Ozon (195 mm, 868 MHz)](antennas/noname_ozon_dipole_868mhz_angled/README.md)
 
 #### 868 MHz
 
@@ -50,7 +50,7 @@ SWR: `1.208` (straight), `1.459` (angled)
 
 Impedance: `46.04 Ω`, `j88m` (straight), `43.23 Ω`, `j182m` (angled)
 
-### [NoName short 868 MHz antenna (54mm)](antennas/noname_short_868mhz_54mm/details.md)
+### [NoName short 868 MHz antenna (54mm)](antennas/noname_short_868mhz_54mm/README.md)
 
 #### 868 MHz
 

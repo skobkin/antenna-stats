@@ -93,7 +93,7 @@ def validate_antenna_sections(readme_path: Path) -> List[str]:
         subsection_name = subsection['name']
         subsection_content = subsection['content']
         
-        # Check if it's a link to details.md
+        # Check if it's a link to README.md
         link_pattern = r'\[([^\]]+)\]\(([^)]+)\)'
         links = re.findall(link_pattern, subsection_name)
         
@@ -101,20 +101,20 @@ def validate_antenna_sections(readme_path: Path) -> List[str]:
             errors.append(ERROR_TEMPLATES['antenna_not_link'].format(subsection=subsection_name))
             continue
         
-        # Check that the link points to a details.md file
+        # Check that the link points to a README.md file
         link_text, link_url = links[0]
-        if not link_url.endswith('details.md'):
+        if not link_url.endswith('README.md'):
             errors.append(ERROR_TEMPLATES['antenna_not_details_link'].format(subsection=extract_link_title(subsection_name)))
             continue
         
-        # Check that the details.md file exists
-        details_path = Path(link_url)
-        if not details_path.exists():
+        # Check that the README.md file exists
+        readme_path = Path(link_url)
+        if not readme_path.exists():
             errors.append(ERROR_TEMPLATES['antenna_file_not_exists'].format(subsection=extract_link_title(subsection_name), link=link_url))
             continue
         
         # Check that the antenna directory exists
-        antenna_dir = details_path.parent
+        antenna_dir = readme_path.parent
         if not antenna_dir.exists() or not antenna_dir.is_dir():
             errors.append(ERROR_TEMPLATES['antenna_dir_invalid'].format(subsection=extract_link_title(subsection_name), dir=antenna_dir))
             continue

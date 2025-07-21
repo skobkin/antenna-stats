@@ -1,5 +1,7 @@
 # Gizont Nb-iot / LORA Soft Antenna M2 (200 mm, 868 MHz)
 
+![photo](images/00_photo.jpg)
+
 ## Where to buy
 
 - [Aliexpress / GIZONT Antenna Store](https://aliexpress.ru/item/1005007503836549.html), select "868MHz SMA M 2" option
@@ -48,14 +50,5 @@ Impedance:
 <summary>Screenshot</summary>
 
 ![Resonance measurements](images/03_measurement_resonances_old.png)
-
-</details>
-
-## Photos
-
-<details>
-<summary>Antenna photo</summary>
-
-![photo](images/00_photo.jpg)
 
 </details>

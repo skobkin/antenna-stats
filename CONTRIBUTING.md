@@ -12,8 +12,8 @@ You can contribute to this repository by opening a Pull Request with your measur
   - All images should go into a separate sub-directory: `antennas/<antenna_name>/images`
     - Screenshots from NanoVNA and devices like that should be in PNG format with maximum compression
     - Antenna photos should be in JPEG or WebP (compressed) formats with ~80% compression, their resolutions should be no more than 1280x720
-  - All detailed text data goes into a `antennas/<antenna_name>/details.md` file.
-    - Check for existing `details.md` examples to see how to format it.
+  - All detailed text data goes into a `antennas/<antenna_name>/README.md` file.
+    - Check for existing `README.md` examples to see how to format it.
     - If there is a datasheet for the antenna, leave a link to it.
 
 ## Hints on taking antenna measurements with [NanoVNA](https://nanovna.com)
