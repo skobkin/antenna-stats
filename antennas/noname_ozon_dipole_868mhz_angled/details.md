@@ -9,6 +9,7 @@
 ### 868 MHz, straight
 
 SWR: `1.208`
+
 Impedance: `46.04 Ω`, `j88m`
 
 <details>
@@ -21,6 +22,7 @@ Impedance: `46.04 Ω`, `j88m`
 ### 868 MHz, angled
 
 SWR: `1.459`
+
 Impedance: `43.23 Ω`, `j182m`
 
 <details>

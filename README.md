@@ -30,8 +30,8 @@ You can contribute to it by opening a Pull Request with your own measuremens. He
 
 #### 868 MHz
 
-SWR: `1.xx`
-Impedance: `xxx`
+SWR: `1.490`
+Impedance: `40.73 Ω`, `j184m`
 
 ### [NoName angled dipole antenna from Ozon (195 mm, 868 MHz)](antennas/noname_ozon_dipole_868mhz_angled/details.md)
 
