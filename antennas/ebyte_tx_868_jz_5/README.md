@@ -20,7 +20,7 @@ SWR: `5.895`
 Impedance: `15.76 Ω`, `-j45.05`
 
 > [!IMPORTANT]
-> Only one antenna was measured, so it's not unrealistic to assume that it could be a defected item. But it's also a good idea to order it in a store where you can return it easily if the problem occurs.
+> Only one antenna was measured, so it's not unrealistic to assume that it could be a defective item. But it's also a good idea to order it in a store where you can return it easily if the problem occurs.
 
 
 <details>
