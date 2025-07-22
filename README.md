@@ -34,6 +34,14 @@ SWR: `1.354` (Antenna 1), `1.321` (Antenna 2)
 
 Impedance: `38.09 Ω`, `j5.838` (Antenna 1), `38.74 Ω`, `j4.954` (Antenna 2)
 
+### [EByte TX868-JZ-5 (868 MHz)](antennas/ebyte_tx_868_jz_5/README.md)
+
+#### 868 MHz
+
+SWR: `5.895`
+
+Impedance: `15.76 Ω`, `-j45.05`
+
 ### [Gizont Nb-iot / LORA Soft Antenna M2 (200 mm, 868 MHz)](antennas/gizont_nbiot_lora_soft_antenna_m2/README.md)
 
 #### 868 MHz
