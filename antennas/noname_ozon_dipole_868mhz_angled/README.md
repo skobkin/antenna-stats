@@ -6,6 +6,13 @@
 
 - [Ozon / "Проснаб"](https://www.ozon.ru/product/antenna-868-mgts-lora-lorawan-2sht-upakovka-1847411655/), select "868MHz SMA M 2" option
 
+## Declared specifications
+
+Gain: `5dBi` (quote from Ozon item page)
+
+> [!IMPORTANT]
+> The declared gain of `5dBi` is most likely fake. Inside the case is just a simple dipole antenna, so the real gain is expected to be much lower.
+
 ## Measurements
 
 ### 868 MHz, straight

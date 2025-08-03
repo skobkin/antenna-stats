@@ -6,6 +6,10 @@
 
 - [Aliexpress / onelinkmore AntennaMan Store](https://aliexpress.ru/item/4000221618463.html)
 
+## Declared specifications
+
+Gain: `3dBi` (quote from Aliexpress item page)
+
 ## Measurements
 
 ### 868 MHz

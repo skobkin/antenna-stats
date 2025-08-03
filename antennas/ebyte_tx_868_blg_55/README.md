@@ -11,6 +11,10 @@
 - [Official site](https://www.cdebyte.com/products/TX868-BLG-55)
 - [Datasheet](https://www.cdebyte.com/pdf-down.aspx?id=1918)
 
+## Declared specs
+
+Gain: `8dBi`
+
 ## Measurements
 
 ### 868 MHz
