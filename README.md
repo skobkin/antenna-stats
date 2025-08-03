@@ -26,6 +26,14 @@ You can contribute to it by opening a Pull Request with your own measuremens. He
 
 ## Antennas
 
+### [EByte TX868-BLG-55 (868 MHz)](antennas/ebyte_tx_868_blg_55/README.md)
+
+#### 868 MHz
+
+SWR: `1.078`
+
+Impedance: `50.2 Ω`, `j3.761`
+
 ### [EByte TX868-JK-11 (868 MHz)](antennas/ebyte_tx_868_jk_11_868/README.md)
 
 #### 868 MHz
