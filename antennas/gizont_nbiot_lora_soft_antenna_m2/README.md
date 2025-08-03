@@ -6,6 +6,13 @@
 
 - [Aliexpress / GIZONT Antenna Store](https://aliexpress.ru/item/1005007503836549.html), select "868MHz SMA M 2" option
 
+## Declared specifications
+
+Gain: `10dBi` (quote from Aliexpress item page)
+
+> [!IMPORTANT]
+> The declared gain of `10dBi` is most likely fake or highly exaggerated. Treat this value with skepticism.
+
 ## Measurements
 
 ### 868 MHz

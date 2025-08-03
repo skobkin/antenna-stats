@@ -11,6 +11,10 @@
 - Official site: https://www.cdebyte.com/products/TX868-JZ-5/4
 - Datasheet: https://www.cdebyte.com/pdf-down.aspx?id=2638
 
+## Declared specifications
+
+Gain: `2dBi`
+
 ## Measurements
 
 ### 868 MHz

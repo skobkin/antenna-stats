@@ -6,6 +6,10 @@
 
 - [Ozon / Платан-Энерго](https://www.ozon.ru/product/tx868-jk-11-antenna-868mgts-2-5dbi-50om-20vt-sma-j-11sm-2235739151/)
 
+## Declared specs
+
+Gain: `2.5dBi`
+
 ## Measurements
 
 ### 868 MHz
