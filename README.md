@@ -50,6 +50,14 @@ SWR: `5.895`
 
 Impedance: `15.76 Ω`, `-j45.05`
 
+### [Gizont IOT 868 omni 40cm (grey)](antennas/gizont_iot_868_omni_40cm_fiberglass/README.md)
+
+#### 868 MHz
+
+SWR: `1.118`
+
+Impedance: `51.33 Ω`, `j5.473 Ω`
+
 ### [Gizont Nb-iot / LORA Soft Antenna M2 (200 mm, 868 MHz)](antennas/gizont_nbiot_lora_soft_antenna_m2/README.md)
 
 #### 868 MHz
