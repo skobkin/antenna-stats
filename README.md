@@ -58,6 +58,14 @@ SWR: `1.118`
 
 Impedance: `51.33 Ω`, `j5.473 Ω`
 
+### [Gizont Nb-iot / LORA Soft Antenna M1 (167 mm, 868 MHz)](antennas/gizont_nbiot_lora_soft_antenna_m1/README.md) [`?dBi`]
+
+#### 868 MHz
+
+SWR: `1.681`
+
+Impedance: `80.24 Ω`, `-j13.86 Ω`
+
 ### [Gizont Nb-iot / LORA Soft Antenna M2 (200 mm, 868 MHz)](antennas/gizont_nbiot_lora_soft_antenna_m2/README.md) [`?dBi`]
 
 #### 868 MHz
