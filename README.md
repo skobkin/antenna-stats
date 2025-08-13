@@ -90,6 +90,10 @@ SWR: `2.052` (Antenna 1), `1.808` (Antenna 2)
 
 Impedance: `53.89 Ω`, `-j37.92` (Antenna 1), `59.56 Ω`, `-j31.36` (Antenna 2)
 
+### [ZIISOR TX868-JZ-5 (868 MHz)](antennas/ebyte_tx_868_jz_5/README.md) [`2dBi`]
+
+*Same as EByte TX868-JZ-5*
+
 ## License
 
 [![CC BY-SA 4.0](cc-by-sa.svg)](https://creativecommons.org/licenses/by-sa/4.0/)
