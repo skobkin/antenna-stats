@@ -7,7 +7,7 @@
 
 This repository is supposed to consist of helpful, but not exhaustive antenna measurements.
 
-Giving it's *homemade* nature, you shouldn't rely on it as a trustworthy source.
+Giving it's _homemade_ nature, you shouldn't rely on it as a trustworthy source.
 
 You can contribute to it by opening a Pull Request with your own measuremens. Here are some [guidelines and instructions](CONTRIBUTING.md).
 
@@ -18,7 +18,7 @@ You can contribute to it by opening a Pull Request with your own measuremens. He
 
 Этот репозиторий предназначен для сбора полезных, но не исчерпывающих измерений антенн.
 
-Учитывая его *кустарную* природу, вам не стоит полагаться на него как на надежный источник.
+Учитывая его _кустарную_ природу, вам не стоит полагаться на него как на надежный источник.
 
 Вы можете внести свой вклад, открыв Pull Request с вашими собственными измерениями. Вот некоторые [рекомендации и инструкции](CONTRIBUTING_RU.md).
 
@@ -38,9 +38,9 @@ Impedance: `50.2 Ω`, `j3.761`
 
 #### 868 MHz
 
-SWR: `1.354` (Antenna 1), `1.321` (Antenna 2)
+SWR: `1.354` (Antenna 1), `1.321` (Antenna 2), `1.052` (Antenna 3)
 
-Impedance: `38.09 Ω`, `j5.838` (Antenna 1), `38.74 Ω`, `j4.954` (Antenna 2)
+Impedance: `38.09 Ω`, `j5.838` (Antenna 1), `38.74 Ω`, `j4.954` (Antenna 2), `47.93 Ω`, `j1.34` (Antenna 3)
 
 ### [EByte TX868-JZ-5 (868 MHz)](antennas/ebyte_tx_868_jz_5/README.md) [`2dBi`]
 
@@ -92,7 +92,7 @@ Impedance: `53.89 Ω`, `-j37.92` (Antenna 1), `59.56 Ω`, `-j31.36` (Antenna 2)
 
 ### [ZIISOR TX868-JZ-5 (868 MHz)](antennas/ebyte_tx_868_jz_5/README.md) [`2dBi`]
 
-*Same as EByte TX868-JZ-5*
+_Same as EByte TX868-JZ-5_
 
 ## License
 
