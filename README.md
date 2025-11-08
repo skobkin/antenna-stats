@@ -50,6 +50,14 @@ SWR: `5.895`
 
 Impedance: `15.76 Ω`, `-j45.05`
 
+### [EByte TX868-XPL-100 (868 MHz)](antennas/ebyte_tx_868_xpl_100/README.md) [`3.5dBi `]
+
+#### 868 MHz
+
+SWR: `1.433`
+
+Impedance: `69.67 Ω`, `j8.266`
+
 ### [Gizont IOT 868 omni 40cm (grey)](antennas/gizont_iot_868_omni_40cm_fiberglass/README.md) [`5dBi`]
 
 #### 868 MHz
