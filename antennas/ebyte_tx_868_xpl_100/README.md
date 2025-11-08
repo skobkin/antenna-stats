@@ -1,5 +1,5 @@
 # EBYTE TX868-XPL-100 (868 MHz)
-![photo](images/00_photo.jpg)  
+![photo](images/00_photo.jpeg)  
 
 ## Where to buy  
 - [Aliexpress Russia](https://aliexpress.ru/item/1005007354682778.html)
@@ -12,7 +12,10 @@ Gain: `3.5 dBi`
 SWR: `≤1.5`  
 Resistance: `50Ω`
 
-## Measurements  
+## Measurements
+
+### 868 MHz
+
 SWR: `1.433`
 Impedance: `69.67 + j8.266 Ω` 
 
